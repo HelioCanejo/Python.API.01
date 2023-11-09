@@ -21,9 +21,10 @@ items = [
 
 ]
 
-# def get_all():
-    # var_json = json.dumps(items, indent=4)
-    # print(var_json)
+def get_all():
+    
+    var_json = json.dumps(items, indent=4)
+    print(var_json)
 
 
 
