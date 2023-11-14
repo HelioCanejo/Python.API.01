@@ -1,6 +1,11 @@
 # Python.API.01
- Minha Primeira API REST em python
 
- ## Requisitos
+Minha primeira API REST em Python.
 
- - Python 3.10^ 
+## Requisitos
+
+- Python 3.10^
+
+## Opcionais
+
+- [DB Browser (SQLite)](https://sqlitebrowser.org/)
