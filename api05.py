@@ -1,11 +1,11 @@
+# coding:utf-8
+
 import json
-
 import sqlite3
-
 import os
 
 # Define o banco de dados
-database='./temp_db.db'
+database ='./temp_db.db'
 
 def get_all_items():
     conn = sqlite3.connect(database)
@@ -20,6 +20,8 @@ def get_all_items():
 
     for res_temp in data:
         res.append(dict(res_temp))
+        
+    return res
 
     os.systme('cls')
     print(res)
