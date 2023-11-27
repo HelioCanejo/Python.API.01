@@ -326,6 +326,7 @@ def get_items_by_owner(id):
     except Exception as e:  # Outros erros.
         return {"error": f"Erro inesperado: {str(e)}"}, 500
 
+
     return {"olá": "mundo"}
 
 
